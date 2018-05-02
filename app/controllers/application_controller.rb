@@ -9,4 +9,11 @@ class ApplicationController < Sinatra::Base
     erb :'index.html'
   end
 
+  # Dynamic Route
+  get '/periodic_number/:periodic_number' do
+
+  end
+
+  
 end
+ 

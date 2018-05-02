@@ -36,5 +36,8 @@ class Element
     @@TABLE[self.protons][:name]
   end
 
-  
+  def weight
+    @@TABLE[self.protons][:weight]
+  end
+
 end
