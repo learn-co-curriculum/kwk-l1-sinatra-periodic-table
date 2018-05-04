@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-1. Instantiate an instance of the element via the dynamic route URL (in the appropriate controller action)
+1. Instantiate an instance of the Element class via the dynamic route URL (in the appropriate controller action)
 2. Use instance variables in an action (a.k.a. controller method) and pass them to the erb view template
 3. Render the `element.html.erb` template
 4. Fill in the parts of that template that should be dynamic based on the instance they found in the controller
