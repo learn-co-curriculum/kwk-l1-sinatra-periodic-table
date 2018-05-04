@@ -30,7 +30,7 @@ class ApplicationController < Sinatra::Base
     @weight = params[:weight]
     @symbol = params[:symbol]
     @base_name = params[:base_name]
-    erb :'element.html'
+    erb :'custom_element.html'
   end
   
 end
