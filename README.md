@@ -6,7 +6,7 @@
 2. Use instance variables in an action (a.k.a. controller method) and pass them to the erb view template
 3. Render the `element.html.erb` template
 4. Fill in the parts of that template that should be dynamic based on the instance they found in the controller
-5. Build out more instance methods for `base_name` and `symbol` because it only has name and weight
+5. Build out more instance methods for `base_name` and `symbol`, as it currently only has name and weight
 
 ## Stretch Goals
 
