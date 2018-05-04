@@ -6,13 +6,13 @@ class Element
       name: "Hydrogen",
       weight: 1.01,
       symbol: "H",
-      baseName: "Hydro"
+      base_name: "Hydro"
     },
     2 => {
       name: "Helium",
       weight: 4.002602,
       symbol: "He",
-      baseName: "Heli"
+      base_name: "Heli"
     },
     6 => {
       name: "Carbon",
@@ -31,13 +31,21 @@ class Element
   def initialize(atomic_number)
     @atomic_number = atomic_number
   end
-
+  
   def name
     @@TABLE[self.atomic_number][:name]
   end
 
   def weight
     @@TABLE[self.atomic_number][:weight]
+  end
+  
+  def symbol
+    @@TABLE[self.atomic_number][:symbol]
+  end
+  
+  def base_name
+    @@TABLE[self.atomic_number][:base_name]
   end
 
 end
