@@ -2,11 +2,11 @@
 
 ## Deliverables
 
-1. Instantiate an instance of the Element class via the dynamic route URL (in the appropriate controller action)
-2. Use instance variables in an action (a.k.a. controller method) and pass them to the erb view template
-3. Render the `element.html.erb` template
+1. Render the element.html.erb template when the route is hit
+2. Instantiate an instance of the Element class via the dynamic route URL (in the appropriate controller action)
+3. Access instance variables in an action (a.k.a. the dynamic controller method) and pass them to the erb view template (note: variables must be prepended with an `@` to be passed between the controller action and the view!)
 4. Fill in the parts of that template that should be dynamic based on the instance they found in the controller
-5. Build out more instance methods for `base_name` and `symbol`, as it currently only has name and weight
+5. Build out more instance methods for base_name and symbol, as it currently only has name and weight
 
 ## Stretch Goals
 
