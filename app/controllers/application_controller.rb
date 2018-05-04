@@ -11,7 +11,7 @@ class ApplicationController < Sinatra::Base
 
   # Dynamic Route
   get '/atomic_number/:atomic_number' do
-    binding.pry
+    # binding.pry
   end
 
   
