@@ -1,5 +1,5 @@
 class Element
-  attr_accessor :protons
+  attr_accessor :atomic_number
 
   @@TABLE = {
     1 => {
@@ -18,26 +18,26 @@ class Element
       name: "Carbon",
       weight: 12.011,
       symbol: "C",
-      baseName: "Carb"
+      base_name: "Carb"
     },
     8 => {
       name: "Oxygen",
       weight: 15.9,
       symbol: "O",
-      baseName: "Oxy"
+      base_name: "Oxy"
     }
   }
 
-  def initialize(protons)
-    @protons = protons
+  def initialize(atomic_number)
+    @atomic_number = atomic_number
   end
 
   def name
-    @@TABLE[self.protons][:name]
+    @@TABLE[self.atomic_number][:name]
   end
 
   def weight
-    @@TABLE[self.protons][:weight]
+    @@TABLE[self.atomic_number][:weight]
   end
 
 end

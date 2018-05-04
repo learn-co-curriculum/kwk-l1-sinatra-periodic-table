@@ -10,8 +10,8 @@ class ApplicationController < Sinatra::Base
   end
 
   # Dynamic Route
-  get '/periodic_number/:periodic_number' do
-
+  get '/atomic_number/:atomic_number' do
+    # binding.pry
   end
 
   
